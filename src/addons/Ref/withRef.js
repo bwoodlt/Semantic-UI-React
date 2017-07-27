@@ -10,7 +10,7 @@ const withRef = Child => class extends Component {
      *
      * @param {HTMLElement} node - Referred node.
      */
-    innerRef: PropTypes.func.isRequired,
+    innerRef: PropTypes.func,
   }
 
   render() {
